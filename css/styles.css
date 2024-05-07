@@ -61,10 +61,7 @@ display: flex;
     margin-right: 40px;
 }
 
-.page-menu-item{
-    position: relative;
-    color: #404bbf;
-}
+
 .page-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -85,6 +82,8 @@ display: flex;
     color: #404bbf;
 }
 .page-menu-link {
+    position: relative;
+    color: #404bbf;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

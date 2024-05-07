@@ -304,6 +304,10 @@ gap: 24px;
 }
 .team-socal-list-item{
     height: 40px;
+    width: 40px;
+}
+.team-social-list-icon{
+    fill: #f4f4fd;
 }
 .team-social-list-link{
     width: 100%;

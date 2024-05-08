@@ -349,9 +349,7 @@ gap: 24px;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
-.our-portfolio-paragraph:hover {
-    transform: translateY(0%);
-}
+
 .our-portfolio-img-wrapper{
     position: relative;
     overflow: hidden;
@@ -375,7 +373,6 @@ gap: 24px;
 }
 .our-portfolio-item:hover .our-portfolio-paragraph {
     transform: translateY(0%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-list li:first-child {
     width: calc((100% - 48px) / 3);
@@ -405,6 +402,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer*/

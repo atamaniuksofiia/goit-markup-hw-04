@@ -474,3 +474,10 @@ margin-bottom: 16px;
 .footer-media-link:focus {
     background-color:#31d0aa;
 }
+.footer-media-item{
+    width: 40px;
+    height: 40px;
+}
+.footer-media-icon-way{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

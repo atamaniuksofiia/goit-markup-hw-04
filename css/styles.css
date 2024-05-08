@@ -373,7 +373,7 @@ gap: 24px;
     font-size: 16px;
 
 }
-.our-portfolio-item:hover .overlay-paragraph{
+.our-portfolio-img-wrapper:hover .our-portfolio-paragraph{
    
     transition-delay: translateY(0%);;
 }
@@ -470,6 +470,7 @@ margin-bottom: 16px;
     display: flex; 
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-media-link:hover, 
 .footer-media-link:focus {
@@ -478,7 +479,4 @@ margin-bottom: 16px;
 .footer-media-item{
     width: 40px;
     height: 40px;
-}
-.footer-media-icon-way{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
